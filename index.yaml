@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-04-28T07:38:36.191897545Z
+    deprecated: true
+    description: My Wordpress Package with rook-ceph-block as PVC.
+    digest: c3ab70b36b6aaac0695dcdacc5c52288c0d9784fa00b22691da418109b23750e
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: 2020-04-28T07:38:36.188955969Z
